@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/GRE-Words-App/static/css/main.d0958b31.css",
-    "main.js": "/GRE-Words-App/static/js/main.c398d936.js",
+    "main.js": "/GRE-Words-App/static/js/main.5491e77a.js",
     "static/js/787.9a80d13b.chunk.js": "/GRE-Words-App/static/js/787.9a80d13b.chunk.js",
     "index.html": "/GRE-Words-App/index.html",
     "main.d0958b31.css.map": "/GRE-Words-App/static/css/main.d0958b31.css.map",
-    "main.c398d936.js.map": "/GRE-Words-App/static/js/main.c398d936.js.map",
+    "main.5491e77a.js.map": "/GRE-Words-App/static/js/main.5491e77a.js.map",
     "787.9a80d13b.chunk.js.map": "/GRE-Words-App/static/js/787.9a80d13b.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.d0958b31.css",
-    "static/js/main.c398d936.js"
+    "static/js/main.5491e77a.js"
   ]
 }
