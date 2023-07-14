@@ -7,7 +7,6 @@ const LoginForm = () => {
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
   const [errorMessage, setErrorMessage] = useState('');
-  const [isLoggedIn, setIsLoggedIn] = useState(false);
   const { authenticated, setAuthenticated } = useContext(AuthContext);
   const [user,setUser] = useState(' ');
 
@@ -30,7 +29,6 @@ const LoginForm = () => {
       // Handle authentication success
       console.log('Login success:', response.data);
       setUser(response.data.user.username);
-      setIsLoggedIn(true);
       setAuthenticated(true);
       setErrorMessage('');
     } catch (error) {
@@ -42,7 +40,6 @@ const LoginForm = () => {
 
   const handleLogout = () => {
     // Handle logout functionality
-    setIsLoggedIn(false);
     setEmail('');
     setPassword('');
   };
@@ -50,8 +47,8 @@ const LoginForm = () => {
   return (
     <div>
       <div className="LoginContainer">
-        <h2>{isLoggedIn ? ' ' : 'Login'}</h2>
-        {isLoggedIn ? (
+        <h2>{authenticated ? ' ' : 'Login'}</h2>
+        {authenticated ? (
           <h2>Welcome {user}</h2>
         ) : (
           <form onSubmit={handleLogin}>
@@ -67,7 +64,7 @@ const LoginForm = () => {
             <button type="submit">Login</button>
           </form>
         )}
-        {isLoggedIn ? (<h3>You are logged in!</h3>)
+        {authenticated ? (<h3>You are logged in!</h3>)
          : (<Link to="/components/RegisterUser">
             <a href="/components/RegisterUser">Register an account</a>
             </Link>

@@ -8,7 +8,7 @@ const Navbar = () => {
 
   const handleLogout = () => {
     setAuthenticated(false);
-    window.location.reload();
+
   };
 
 
@@ -29,7 +29,11 @@ const Navbar = () => {
           </li>
 
           <li className="navbar-right">
-          {authenticated ? (<button onClick={handleLogout}>Logout</button>) 
+          {authenticated ? (
+            <Link to="/components/LoginForm">
+          <button onClick={handleLogout}>Logout</button>
+          </Link>
+          ) 
           : (<Link to="/components/LoginForm">Login</Link>)}
           </li>
 
