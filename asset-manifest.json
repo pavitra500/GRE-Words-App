@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/pavitra500/GRE-Words-App/static/css/main.d0958b31.css",
-    "main.js": "/pavitra500/GRE-Words-App/static/js/main.d7a7c8f4.js",
-    "static/js/787.9a80d13b.chunk.js": "/pavitra500/GRE-Words-App/static/js/787.9a80d13b.chunk.js",
-    "index.html": "/pavitra500/GRE-Words-App/index.html",
-    "main.d0958b31.css.map": "/pavitra500/GRE-Words-App/static/css/main.d0958b31.css.map",
-    "main.d7a7c8f4.js.map": "/pavitra500/GRE-Words-App/static/js/main.d7a7c8f4.js.map",
-    "787.9a80d13b.chunk.js.map": "/pavitra500/GRE-Words-App/static/js/787.9a80d13b.chunk.js.map"
+    "main.css": "/static/css/main.d0958b31.css",
+    "main.js": "/static/js/main.5e24ea5f.js",
+    "static/js/787.9a80d13b.chunk.js": "/static/js/787.9a80d13b.chunk.js",
+    "index.html": "/index.html",
+    "main.d0958b31.css.map": "/static/css/main.d0958b31.css.map",
+    "main.5e24ea5f.js.map": "/static/js/main.5e24ea5f.js.map",
+    "787.9a80d13b.chunk.js.map": "/static/js/787.9a80d13b.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.d0958b31.css",
-    "static/js/main.d7a7c8f4.js"
+    "static/js/main.5e24ea5f.js"
   ]
 }
