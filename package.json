@@ -13,7 +13,7 @@
     "react-scripts": "5.0.1",
     "web-vitals": "^2.1.4"
   },
-  "homepage": "https://pavitra500.github.io/GRE-Words-App/",
+  "homepage": "https://pavitra500.github.io/",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
