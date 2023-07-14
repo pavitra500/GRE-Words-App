@@ -67,7 +67,11 @@ const LoginForm = () => {
           </form>
         )}
         {isLoggedIn ? (<h3>You are logged in!</h3>)
-         : (<a href="/components/RegisterUser">Register an account</a>)}
+         : (<Link to="/components/RegisterUser">
+            <a href="/components/RegisterUser">Register an account</a>
+            </Link>
+            )}
+
       </div>
     </div>
   );
